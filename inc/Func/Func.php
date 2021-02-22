@@ -10,7 +10,7 @@ class Func
     add_action('wp_ajax_my_action', array($this, 'my_action'));
 }
     public function my_action()
-    {global $wpdb; // this is how you get access to the database
+    {global $wpdb;
         $whatever = intval($_POST['whatever']);
         if ($whatever == 1) {
             $args = array(
