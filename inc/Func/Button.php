@@ -2,7 +2,7 @@
 namespace Inc\Func;
 
 /**
- *
+ * @package  titlenamechange Plugin
  */
 class Button
 {public function register()
