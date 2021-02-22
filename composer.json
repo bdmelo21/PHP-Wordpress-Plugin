@@ -1,0 +1,11 @@
+{
+    "name": "bernardodemelo/titlenamechange-plugin",
+    "authors": [
+        {
+            "name": "Bernardo Melo",
+            "email": "bernardodmelo@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {"psr-4": {"Inc\\": "./inc"}}
+}
