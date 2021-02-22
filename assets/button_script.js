@@ -3,7 +3,7 @@ function change_title_action_js() {
     var data = {
       action: "my_action",
       url: "Func.php",
-      whatever: ajax_object.we_value,
+      numbercheck: ajax_object.we_value,
     };
     // We can also pass the url value separately from ajaxurl for front end AJAX implementations
     jQuery.post(ajax_object.ajax_url, data, function (response) {

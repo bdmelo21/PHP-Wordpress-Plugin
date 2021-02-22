@@ -11,8 +11,8 @@ class Func
 }
     public function my_action()
     {global $wpdb; // this is how you get access to the database
-        $whatever = intval($_POST['whatever']);
-        if ($whatever == 1) {
+        $numbercheck = intval($_POST['numbercheck']);
+        if ($numbercheck == 1) {
             $args = array(
                 'post_type' => 'post');
             $result = new \WP_Query($args);
