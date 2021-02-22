@@ -10,9 +10,15 @@ class Func
     add_action('wp_ajax_my_action', array($this, 'my_action'));
 }
     public function my_action()
+<<<<<<< HEAD
     {global $wpdb; // this is how you get access to the database
         $numbercheck = intval($_POST['numbercheck']);
         if ($numbercheck == 1) {
+=======
+    {global $wpdb;
+        $whatever = intval($_POST['whatever']);
+        if ($whatever == 1) {
+>>>>>>> f18ce6834faf5de8b25cb29177cc65ad8fdd3a09
             $args = array(
                 'post_type' => 'post');
             $result = new \WP_Query($args);

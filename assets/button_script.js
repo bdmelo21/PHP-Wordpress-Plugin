@@ -5,7 +5,6 @@ function change_title_action_js() {
       url: "Func.php",
       numbercheck: ajax_object.we_value,
     };
-    // We can also pass the url value separately from ajaxurl for front end AJAX implementations
     jQuery.post(ajax_object.ajax_url, data, function (response) {
       console.log(response);
       if (response == 0) {
